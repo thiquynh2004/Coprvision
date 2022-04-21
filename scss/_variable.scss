@@ -1,0 +1,36 @@
+$c1-fontColor: #666666;
+$c1-headingColor: #3f3a64;
+$c1: #213364;
+$c2: #ffffff;
+$c3-green: #009f4d;
+
+$text-xs: 0.75rem;
+$text-sm: 0.875rem;
+$text-base: 1rem;
+$text-md: 1.25rem;
+$text-lg: 1.5rem;
+$text-xl: 2rem;
+$text-2xl: 3rem;
+$text-3xl: 4rem;
+
+$font-light: 300;
+$font-normal: 400;
+$font-semibold: 600;
+$font-bold: 700;
+
+@mixin text($fs, $fw, $c) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $c;
+}
+
+@mixin button($bg, $fs, $fw, $c, $pd, $bd, $br) {
+  background: $bg;
+  @include text($fs, $fw, $c);
+  border: $bd;
+  padding: $pd;
+  border-radius: $br;
+  cursor: pointer;
+}
+
+@mixin input(){}
