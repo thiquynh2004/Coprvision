@@ -1,1 +1,27 @@
-/* No CSS *//*# sourceMappingURL=about.css.map */
+#header {
+  position: relative;
+}
+
+.title-header {
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  text-align: center;
+  color: #ffffff;
+  line-height: 2.5rem;
+}
+
+.title-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.title-header p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+/*# sourceMappingURL=about.css.map */

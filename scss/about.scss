@@ -1,0 +1,20 @@
+@import "./variable";
+#header{
+    position: relative;
+}
+.title-header {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    text-align: center;
+    color: #ffffff;
+    line-height:2.5rem;
+    h1{
+        @include text($text-2xl, $font-bold, $c2)
+    }
+    p{
+        @include text($text-base, $font-light, $c2);
+        margin-top:1rem;
+        opacity: 0.7;
+    }
+}
